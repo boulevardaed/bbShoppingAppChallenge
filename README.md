@@ -9,7 +9,7 @@ Implemented functionalities
 - Target: Android 4.3 (API ver.18), minimal: Android 4.0 (API ver.14)
 - Listview with custom adapter as main frame
 - HttpResponseCache for reducing redundant requests
-- Get and parse JSON from provided API
+- Get and parse JSON from provided API, including usage of AsyncTask
 - Appropriate layout format, including asset studio usage, resources and styles
 
 Component documentation
