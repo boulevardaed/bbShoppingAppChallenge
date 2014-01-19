@@ -1,5 +1,8 @@
 BB Shopping App Coding Challenge
 ======================
+
+Working on cart part..
+
 Implemented functionalities
 ----
 
