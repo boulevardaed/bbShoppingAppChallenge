@@ -3,6 +3,27 @@ BB Shopping App Coding Challenge
 Implemented functionalities
 ----
 
+- Listview with custom adapter as main frame
+- HttpResponseCache for reducing redundant requests
+- Get and parse JSON from provided API
+- Appropriate layout format, including asset studio usage, resources and styles
+
+Component documentation
+----
+
+- Cart_Activity.java
+- Category_Activity.java
+- Category_Adapter.java
+- Helper.java
+<br>handleJSONValue:
+<br>isConnected:
+<br>getModifiedDate:
+<br>httpGet:
+- ImageDownloader.java
+- Product_Dialog.java
+- Product_List_Activity.java
+- Product_List_Adapter.javajava
+
 Challenges
 ----
 
