@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Product_List_Activity" >
+        
+    <ImageView 
+        android:id="@+id/list_thumb_small"
+        android:contentDescription="@string/list_thumb_content"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+        
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+        	
+        <TextView
+		   android:id="@+id/product_text"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:textSize="19sp"
+		   android:textStyle="bold"
+		   android:textColor="@color/black" />
+         
+           <RelativeLayout 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content" >
+        	
+	        	<TextView
+				    android:id="@+id/product_condition"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:textSize="15sp" />
+	        	
+	        	<TextView
+				    android:id="@+id/product_price"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="15sp"
+				    android:layout_alignParentRight="true" />
+	        	
+	        	<TextView
+				    android:id="@+id/product_unit"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:textSize="15sp"
+				    android:layout_toLeftOf="@+id/product_price" />
+	        
+	        </RelativeLayout>
+            
+        </LinearLayout>
+    
+</LinearLayout>
