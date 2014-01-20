@@ -15,7 +15,7 @@ Implemented functionalities
 Program Structure
 ----
 
-![Structure](https://raw.github.com/boulevardaed/bbShoppingAppChallenge/master/Untitled.png)
+![Structure](https://raw.github.com/boulevardaed/bbShoppingAppChallenge/master/BBChallenge.png)
 
 Component documentation
 ----
