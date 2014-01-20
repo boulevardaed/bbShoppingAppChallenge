@@ -24,10 +24,10 @@ Component documentation
 - Category_Activity.java - activity for category list
 - Category_Adapter.java - custom adapter for list view in category activity
 - Helper.java - shared functions
-	handleJSONValue: return a list of JSON objects based on input key value
-	isConnected: check whether there's a mobile data connection or not
-	getModifiedDate: convert Unix stamp to date format
-	httpGet: get JSON data from URL
+*handleJSONValue: return a list of JSON objects based on input key value
+*isConnected: check whether there's a mobile data connection or not
+*getModifiedDate: convert Unix stamp to date format
+*httpGet: get JSON data from URL
 - ImageDownloader.java - use AsyncTask to download Bitmap image
 - Product_Dialog.java - a custom dialog to display product details
 - Product_List_Activity.java - activity for product list
