@@ -12,6 +12,11 @@ Implemented functionalities
 - Get and parse JSON from provided API, including usage of AsyncTask
 - Appropriate layout format, including asset studio usage, resources and styles
 
+Program Structure
+----
+
+![Structure](https://raw.github.com/boulevardaed/bbShoppingAppChallenge/master/Untitled.png)
+
 Component documentation
 ----
 
