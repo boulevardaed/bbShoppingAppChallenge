@@ -15,18 +15,20 @@ Implemented functionalities
 Component documentation
 ----
 
-- Cart_Activity.java
-- Category_Activity.java
-- Category_Adapter.java
-- Helper.java
-<br>handleJSONValue:
-<br>isConnected:
-<br>getModifiedDate:
-<br>httpGet:
-- ImageDownloader.java
-- Product_Dialog.java
-- Product_List_Activity.java
-- Product_List_Adapter.javajava
+- Cart_Activity - activity for display items in cart.java
+- Category_Activity.java - activity for category list
+- Category_Adapter.java - custom adapter for list view in category activity
+
+- Helper.java - shared functions
+<br>handleJSONValue: return a list of JSON objects based on an input key value
+<br>isConnected: check whether there's a mobile data connection or not
+<br>getModifiedDate: convert Unix stamp to date format
+<br>httpGet: get JSON data from URL
+
+- ImageDownloader.java - use AsyncTask to download Bitmap image
+- Product_Dialog.java - a custom dialog to display product details
+- Product_List_Activity.java - activity for product list
+- Product_List_Adapter.java - custom adapter for list view in product list activity
 
 Challenges
 ----
