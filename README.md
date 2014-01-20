@@ -37,7 +37,10 @@ Challenges
 ----
 
  - At first I needed to find a way to update listview after AsyncTask was finished. I tried several ways including setting global variables. Finally I used BroadcastReceiver to receive intent from onPostExecute
- - This is my first time I have implemented images downloading in custom listview. There're several options initially: <br>1. Download them first into a list, then pass it to list view adapter. <br>2. When scrolling the list view, download the image if the item appears on the screen (AsyncTask in adapter). <br>3. Use 3rd party library. Finally I chose the second option. 
+ - This is my first time I have implemented images downloading in custom listview. There're several options initially: 
+ 	- Download them first into a list, then pass it to list view adapter.
+ 	- When scrolling the list view, download the image if the item appears on the screen (AsyncTask in adapter).
+ 	- Use 3rd party library. Finally I chose the second option. 
  - Not very skillful to parse JSON data, especially when the level is deep.
  - Also this is my first time I have used HttpResponseCache. I come up with several ideas to eliminate redundant data request, like using SQLite and passing data through intent. Finally I found this class in Android documentation.
 
